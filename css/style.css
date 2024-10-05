@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  padding: 20px 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__box {
+  display: flex;
+  align-items: center;
+}
+
+.logo__text {
+  font-size: 19px;
+  font-weight: 500;
+  color: #0B132A;
+  margin-left: 6px;
+}
+
+.logo__spn {
+  font-weight: 700;
+}
+
+.nav__list {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.nav__item {
+  margin: 0 20px;
+}
+
+.nav__link {
+  font-size: 16px;
+  font-weight: 400; 
+  color: rgba(0, 0, 0, 0.55);
+  text-transform: capitalize;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #000;
+}
+
+.active {
+  color: #F53838;
+}
+
+.active:hover {
+  color: #F53838;
+}
+.sign__list {
+  display: flex;
+  align-items: center;
+}
+
+.sign__item {
+  margin: 0 10px;
+}
+
+.sign__link {
+  text-transform: capitalize;
+}
+
+.sign__in {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+.sign__in:hover {
+  text-decoration: underline;
+}
+
+.sign__up {
+  font-size: 16px;
+  font-weight: 500;
+  color: #F53838;
+  padding: 8px 30px;
+  border: 1px solid #F53838;
+  border-radius: 20px;
+  background-color: transparent;
+  transition: all 0.4s ease;
+}
+
+.sign__up:hover {
+  background-color: #F53838;
+  color: #fff;
+}
