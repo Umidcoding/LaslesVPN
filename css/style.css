@@ -204,3 +204,46 @@ header {
   border-right: 2px solid #eeeff2;
   border-left: 2px solid #eeeff2;
 }
+
+.features {
+  padding-top: 50px;
+}
+
+.row.features {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features__right {
+  max-width: 428px;
+}
+
+.features__title {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.features__text {
+  color: #4f5665;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.features__list {
+  padding-left: 0;
+}
+
+.features__item {
+  display: flex;
+  align-items: center;
+}
+
+.features__item::before {
+  content: url(../img/check-icon.svg);
+  position: relative;
+  top: 3px;
+  margin-right: 12px;
+}
+
